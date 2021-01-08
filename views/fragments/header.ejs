@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <title>Squash Tournaments</title>
+</head>
+
+<body>
+<header>
+    <img src="/images/logo.png" alt="Squash Tournament Management System logo">
+    <h1>Squash Tournament Management System</h1>
+    <img src="/images/logo.png" alt="Squash Tournament Management System logo">
+</header>
+<nav>
+    <ul>
+        <li><a href="/" class="<%= navLocation === 'main' ? 'active' : '' %>">Main page</a></li>
+        <li><a href="/players" class="<%= navLocation === 'player' ? 'active' : '' %>">Players</a></li>
+        <li><a href="/tournaments" class="<%= navLocation === 'tournament' ? 'active' : '' %>">Tournaments</a></li>
+        <li><a href="/participations" class="<%= navLocation === 'participation' ? 'active' : '' %>">Participations</a>
+        </li>
+    </ul>
+</nav>
